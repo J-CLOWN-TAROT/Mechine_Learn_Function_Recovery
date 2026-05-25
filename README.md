@@ -10,113 +10,65 @@
 
 参数如下：
 
+```raw
 **CFG features  CFG 特点**
-
 cfg_size
-
 cfg_avg_degree
-
 cfg_num_degree
-
 cfg_avg_loopintersize
-
 cfg_avg_loopsize
-
 cfg_avg_sccsize
-
 cfg_num_backedges
-
 cfg_num_loops
-
 cfg_num_loops_inter
-
 cfg_num_scc
-
-cfg_sum_loopintersize
-
+cfg_sum_loopintersiz
 cfg_sum_loopsize
-
 cfg_sum_sccsize
 
 **CG features  CG 特色**
-
 cg_num_callees
-
 cg_num_callers
-
 cg_num_imported_callees
-
 cg_num_incalls
-
 cg_num_outcalls
-
 cg_num_imported_calls
 
 **Instruction features  指令特性**
-
 inst_avg_abs_dtransfer
-
 inst_avg_abs_arith
-
 inst_avg_abs_ctransfer
-
 inst_num_abs_dtransfer (dtransfer + misc)
-
 inst_num_abs_arith (arith + shift)
-
 inst_num_abs_ctransfer (ctransfer + cond ctransfer)
-
 inst_avg_inst
-
 inst_avg_floatinst
-
 inst_avg_logic
-
 inst_avg_dtransfer
-
 inst_avg_arith
-
 inst_avg_cmp
-
 inst_avg_shift
-
 inst_avg_bitflag
-
 inst_avg_cndctransfer
-
 inst_avg_ctransfer
-
 inst_avg_misc
-
 inst_num_inst
-
 inst_num_floatinst
-
 inst_num_logic
-
 inst_num_dtransfer
-
 inst_num_arith
-
 inst_num_cmp
-
 inst_num_shift
-
 inst_num_bitflag
-
 inst_num_cndctransfer
-
 inst_num_ctransfer
-
 inst_num_misc
 
 **Type features  类型特征**
-
 data_mul_arg_type
-
 data_num_args
-
 data_ret_type
+```
 
 其中 Type features  类型特征的提取不再依赖源码了，而是依靠ida软件解析的函数的形参
 
